@@ -1,6 +1,6 @@
-let bookProps = {
+{
 	"name": "name of the book",
-	"authors": [];
+	"authors": [],
 	"category": "category of the book", 
 	"keywords": "some keywords",
 	"coverUrl": "address of the cover", 
@@ -9,12 +9,9 @@ let bookProps = {
 		"copyrightStatement": "statement for copyright",
 		"preface": "book's preface",
 		"tableOfContent":"table of content of the book",
-		"chapter": [],
-		"index":{
+		"chapter" : [],
+		"index" : {
 
 		}
 	}
 }
-
-// creation of the book
-let book = new Book(bookProps);
